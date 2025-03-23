@@ -2,7 +2,7 @@
 using BepInEx.Unity.IL2CPP;
 
 
-namespace Lethe;
+namespace MyPlugin;
 
 [BepInPlugin(GUID, NAME, VERSION)]
 public class Main : BasePlugin
