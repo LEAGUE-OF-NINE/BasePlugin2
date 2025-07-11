@@ -10,7 +10,7 @@
     <DebugSymbols>true</DebugSymbols>
     <LangVersion>10.0</LangVersion>
     <IsPublishable>True</IsPublishable>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Platforms>x64</Platforms>
     <Configurations>BIE</Configurations>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
@@ -29,11 +29,6 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile" />
-    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
-  </ItemGroup>
 
   <!-- ~~~~~ ASSEMBLY REFERENCES ~~~~~ -->
   <!-- BepinEx -->
